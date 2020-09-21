@@ -1,8 +1,0 @@
-User-agent: *
-Disallow: /cgi-local/
-Disallow: /links/
-Disallow: /includes/
-Disallow: /resume/
-Disallow: /samples.zip
-Disallow: /mt3/
-Disallow: /rabourn-cv.pdf

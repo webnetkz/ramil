@@ -1,4 +1,0 @@
-User-agent: *
-Allow: *
-
-Sitemap: http://ultimorender.com.ar/funkascript/expresionismo/marcas/pdf/sitemap.xml

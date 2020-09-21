@@ -1,7 +1,0 @@
-User-agent: Googlebot-Image
-Disallow: /
-
-User-agent: *
-Disallow: /portland/clickclick
-Disallow: /sponsored/
-Disallow: /cgi-bin/
