@@ -1,0 +1,30 @@
+
+User-agent: Googlebot-News
+Disallow: /admin
+Disallow: /newfanshot
+Disallow: /users/*/replies
+Disallow: /search
+Disallow: /account
+Disallow: /login
+Disallow: /chorus_auth
+Disallow: /sso
+Disallow: /ad
+Disallow: /sponsored
+
+User-agent: *
+Disallow: /admin
+Disallow: /newfanshot
+Disallow: /users/*/replies
+Disallow: /search
+Disallow: /account
+Disallow: /login
+Disallow: /chorus_auth
+Disallow: /sso
+
+Sitemap: https://www.vox.com/sitemaps
+Sitemap: https://www.vox.com/sitemaps/authors
+Sitemap: https://www.vox.com/sitemaps/groups
+Sitemap: https://www.vox.com/sitemaps/videos
+
+Sitemap: https://www.vox.com/sitemaps/google_news
+

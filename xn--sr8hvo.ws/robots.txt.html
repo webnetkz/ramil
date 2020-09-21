@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>🕸💍</title>
+    <meta name="description" content="An IndieWeb Webring">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <div style="display: flex; flex-wrap: wrap; font-size: 3em"><img style="height: 1.3em; margin-top: -0.1em" src="/images/indiewebcamp-logo-lockup-color.svg" alt="IndieWebCamp logo" />🕸💍 –&nbsp; <h1 style="font-size: 1em; margin: 0;">An IndieWeb Webring</h1></div>  
+      <small>Or: if you like it then you should put it on a 🕸💍</small>
+    </header>
+
+    <main>
+      <h2>What is This?</h2>
+
+<p>
+This proof-of-concept <a href="https://en.wikipedia.org/wiki/Webring">webring</a> is a way for folks adding <a href="https://indieweb.org/building-blocks">IndieWeb building blocks</a> to their personal websites to find (and be found by) other folks with IndieWeb building blocks on their sites!
+</p>
+
+<h2>Sign In</h2>
+
+<p>
+Ready to join or already a member? Get started by signing in. The webring works with sites that support <a href="https://indieweb.org/IndieAuth">IndieAuth</a> or <a href="https://indieweb.org/RelMeAuth">RelMeAuth</a>.
+</p>
+
+<form method="POST" action="/signin">
+  <label for="me">Sign in with your domain:</label>
+  <input type="url" id="me" name="me" autocomplete="home url"/>
+  <button type="submit">Sign In</button>
+</form>
+<h2>Other Questions?</h2>
+
+<p>
+Check our <a href="/terms">Terms of Use and Frequently Asked Questions</a>!
+</p>
+
+<div class="h-feed">
+  <h2 class="p-name">Recent Changes</h2>
+  <ul>
+    <li class="h-entry"><strong class="dt-published">2019-12-28</strong> – <em class="p-name">You have questions? We have answers!</em> <span class="e-content">We now have a <a href="/terms">Terms of Use and FAQ</a> page! <a class="u-url" href="https://martymcgui.re/2019/12/28/141735/">[Details and comments]</a></span></li>
+    <li class="h-entry"><strong class="dt-published">2019-01-19</strong> – <em class="p-name">An IndieWebring Directory!</em> <span class="e-content">Active sites who opt-in can now appear on the <a href="/directory">Directory</a> page! <a class="u-url" href="https://martymcgui.re/2019/01/19/an-indiewebring-directory/">[Details and comments]</a></span></li>    
+    <li class="h-entry"><strong class="dt-published">2018-09-29</strong> – <em class="p-name">Webrings without borders!</em> <span class="e-content">New emoji IDs will no longer have country flag emoji. <a class="u-url" href="https://martymcgui.re/2018/09/29/114553/">[Details and comments]</a></span></li>  
+  </ul>
+</div>
+
+    </main>
+
+    <footer>
+      <p>
+        Made with <a href="https://glitch.com">Glitch 🐟🐟</a>  and ❤️ at <a href="https://indieweb.org/2018">IndieWeb Summit 2018</a> by <a href="https://martymcgui.re/">schmarty</a>.
+      </p>
+      <p>
+        Check out the project <a href="https://glitch.com/~steady-sundial">on Glitch</a> or <a href="https://github.com/martymcguire/indiewebring.ws">GitHub</a> or <a href="https://git.schmarty.net/schmarty/indiewebring.ws">my git mirror</a>.
+      </p>
+      <p>
+        Having trouble? Find schmarty in the <a href="https://indieweb.org/discuss">IndieWeb chat</a>!
+      </p>
+    </footer>
+    <script src="/client.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: http://www.gnome-girl.com/wp-sitemap.xml
+
+Sitemap: http://www.gnome-girl.com/sitemap.xml.gz

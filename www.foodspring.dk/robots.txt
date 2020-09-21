@@ -1,0 +1,29 @@
+User-agent: *
+Disallow: /subscription/
+Disallow: /customer/account/
+Disallow: /checkout/
+Disallow: /checkoutprozess/
+Disallow: /body-check/result/
+Disallow: /var/
+Disallow: /catalog/
+Disallow: /catalogsearch/
+Disallow: /varnish/
+Disallow: /lib/
+Disallow: /plugins/feedback.php
+Disallow: /goodminton/ajax/global/
+Disallow: /onestepcheckout/ajax/set_methods_separate
+Disallow: /braintree/checkout/quoteTotal
+
+
+Disallow: /en/subscription/
+Disallow: /en/customer/account/
+Disallow: /en/checkout/
+Disallow: /en/checkoutprozess/
+Disallow: /en/body-check/result/
+Disallow: /en/var/
+Disallow: /en/catalog/
+Disallow: /en/catalogsearch/
+Disallow: /en/varnish/
+Disallow: /en/lib/
+Disallow: /plugins/feedback.php
+Disallow: /en/goodminton/ajax/global/

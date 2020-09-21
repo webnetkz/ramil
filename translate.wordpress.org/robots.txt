@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+User-agent: *
+Disallow: /*
+Allow: /$
+Allow: /stats/$
+Allow: /consistency/$
+Allow: /locale/$
+Allow: /locale/*/glossary/$
+Allow: /locale/*/stats/plugins/$
+Allow: /locale/*/stats/themes/$

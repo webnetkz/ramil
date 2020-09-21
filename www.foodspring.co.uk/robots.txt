@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /subscription/
+Disallow: /customer/account/
+Disallow: /checkout/
+Disallow: /checkoutprozess/
+Disallow: /body-check/result/
+Disallow: /var/
+Disallow: /catalog/
+Disallow: /catalogsearch/
+Disallow: /varnish/
+Disallow: /lib/
+Disallow: /plugins/feedback.php
+Disallow: /goodminton/ajax/global/

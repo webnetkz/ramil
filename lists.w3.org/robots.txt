@@ -1,0 +1,12 @@
+# robots.txt for https://lists.w3.org/
+
+# W3C Link checker
+User-agent: W3C-checklink
+Disallow:
+
+User-agent: *
+Disallow: /Archives/Group/
+Disallow: /Archives/Member/
+Disallow: /Archives/Team/
+Disallow: */mboxes/
+

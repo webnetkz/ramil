@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://www.gov.ca.gov/sitemap.xml
+
+Sitemap: https://www.gov.ca.gov/sitemap.xml
