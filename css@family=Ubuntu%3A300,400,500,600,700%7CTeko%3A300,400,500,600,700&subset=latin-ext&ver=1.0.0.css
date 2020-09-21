@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Teko Light'), local('Teko-Light'), url(LYjCdG7kmE0gdQhfsCpgrQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Teko Regular'), local('Teko-Regular'), url(LYjNdG7kmE0gfa19oA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Teko Medium'), local('Teko-Medium'), url(LYjCdG7kmE0gdVBesCpgrQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Teko SemiBold'), local('Teko-SemiBold'), url(LYjCdG7kmE0gdXxZsCpgrQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Teko Bold'), local('Teko-Bold'), url(LYjCdG7kmE0gdRhYsCpgrQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(4iCv6KVjbNBYlgoC1CzjvmyI.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(4iCs6KVjbNBYlgoKcQ7z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Ubuntu Medium'), local('Ubuntu-Medium'), url(4iCv6KVjbNBYlgoCjC3jvmyI.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(4iCv6KVjbNBYlgoCxCvjvmyI.ttf) format('truetype');
+}
