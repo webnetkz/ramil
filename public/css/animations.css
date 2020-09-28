@@ -1,0 +1,35 @@
+@keyframes decorationImg {
+    0% {
+        right: -10px;
+    }
+    50% {
+        right: -25px;
+    }
+    100% {
+        right: -10px;
+    }
+    }
+@keyframes showFromBottom {
+    0% {
+        top: 100vh;
+    }
+    100% {
+        top: 0;
+    }
+}
+@keyframes showFromLeft {
+    0% {
+        left: -100vw;
+    }
+    100% {
+        left: 0;
+    }
+}
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
