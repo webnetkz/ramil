@@ -67,7 +67,7 @@
         display: block;
         color: rgb(243, 78, 58);
         font-size: 2em;
-        z-index: 99;
+        z-index: 1;
     }
     .onePlus {
         animation: showOnePlus 0.7s linear 0.5;
@@ -109,20 +109,35 @@
             right: 0;
         }
     }
+    .rotateOne {
+        animation: rotateOne 5s infinite;
+    }
+    @keyframes rotateOne {
+        0% {
+
+        }
+        50% {
+            filter: blur(55px);
+        }
+        100% {
+
+        }
+    }
 </style>
 <section class="mainPage">
     <img src="public/img/lines.png" alt="lines" class="decorationImg">
-    <span class="strong">strong</span>
-    <span class="forStrong">beat the routine train at the beat the routine train at the beat the routine train at the</span>
+    <span class="strong">ra</span>
+    <span class="strong rotateOne">m</span>
+    <span class="strong">il</span>
+    <span class="forStrong">Победа каждого из нас, победа в целом. Победа каждого из нас, победа в целом. Победа каждого из нас, победа в целом.</span>
     <span class="verticalText">what we have to offer</span>
     <span class="onePlus plus">+</span>
     <span class="twoPlus plus">+</span>
     <img src="public/img/photo/home.jpg" alt="photo" class="mainImg">
-    <p class="decorText">20K8</p>
+    <p class="decorText">2k21</p>
 </section>
 <script>
     window.addEventListener('scroll', function() {
-        console.log(pageYOffset);
         document.querySelector('.decorText').style.bottom = (-pageYOffset * 0.3) + 'px';
         document.querySelector('.mainImg').style.top = (-pageYOffset * 0.3) + 'px';
         document.querySelector('.twoPlus').style.bottom = (-pageYOffset * 0.8) + 'px';
