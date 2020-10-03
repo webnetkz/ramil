@@ -25,8 +25,10 @@
         padding: 10px 30px;
         text-transform: uppercase;
         text-decoration: none;
+        border-bottom: 2px solid rgb(0, 0, 0);
     }
     .menuItem:hover {
+        border-bottom: 2px solid rgb(243, 78, 58);
         color: rgb(243, 78, 58);
         cursor: pointer;
     }

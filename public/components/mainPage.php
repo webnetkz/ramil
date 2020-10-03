@@ -138,10 +138,12 @@
 </section>
 <script>
     window.addEventListener('scroll', function() {
-        document.querySelector('.decorText').style.bottom = (-pageYOffset * 0.3) + 'px';
-        document.querySelector('.mainImg').style.top = (-pageYOffset * 0.3) + 'px';
-        document.querySelector('.twoPlus').style.bottom = (-pageYOffset * 0.8) + 'px';
-        document.querySelector('.onePlus').style.bottom = (-pageYOffset * 0.5) + 'px';
-        document.querySelector('.verticalText').style.top = ((200 + pageYOffset) * 0.8) + 'px';
+        if(pageYOffset < 1200) {
+            document.querySelector('.decorText').style.bottom = (-pageYOffset * 0.3) + 'px';
+            document.querySelector('.mainImg').style.top = (-pageYOffset * 0.3) + 'px';
+            document.querySelector('.twoPlus').style.bottom = (-pageYOffset * 0.8) + 'px';
+            document.querySelector('.onePlus').style.bottom = (-pageYOffset * 0.5) + 'px';
+            document.querySelector('.verticalText').style.top = ((200 + pageYOffset) * 0.8) + 'px';
+        }
     });
 </script>

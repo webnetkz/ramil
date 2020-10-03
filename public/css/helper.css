@@ -10,6 +10,7 @@ section {
   width: 100vw;
 }
 .half {
+  height: 50vw;
   width: 50vw;
 }
 .block {

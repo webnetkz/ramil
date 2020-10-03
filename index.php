@@ -18,11 +18,15 @@
         <link rel="manifest" href="/public/json/manifest.json"> 
       </head>
 
-    <body>
+    <body style="padding-right: -10px;">
         <?php require_once "public/components/header.php"; ?>
         <?php require_once "public/components/mainPage.php"; ?>
         <?php require_once "public/components/twoPage.php"; ?>
         <?php require_once "public/components/threePage.php"; ?>
+        <?php require_once "public/components/fourPage.php"; ?>
+        <?php require_once "public/components/fivePage.php"; ?>
+        <?php require_once "public/components/sixPage.php"; ?>
+        <?php //require_once "public/components/sevenPage.php"; ?>
         <?php require_once "public/components/footer.php"; ?>
 
 
