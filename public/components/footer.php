@@ -10,38 +10,17 @@
         height: 15vh;
         background: rgb(243, 78, 58);
     }
-    .promo > div {
-
-    }
     .promoImg {
-        position: absolute;
-    }
-    .promoImgFake {
-        position: absolute;
+        height: 60%;
     }
 </style>
 <footer>
-    <div class="promo flex row">
-        <div>
-            <img src="public/img/promoImg.png" alt="promo" class="promoImg">
-            <img src="public/img/promoImg.png" alt="promo" class="promoImgFake">
-        </div>
-        <div>
-            <img src="public/img/promoImg.png" alt="promo" class="promoImg">
-            <img src="public/img/promoImg.png" alt="promo" class="promoImgFake">
-        </div>
-        <div>
-            <img src="public/img/promoImg.png" alt="promo" class="promoImg">
-            <img src="public/img/promoImg.png" alt="promo" class="promoImgFake">
-        </div>
-        <div>
-            <img src="public/img/promoImg.png" alt="promo" class="promoImg">
-            <img src="public/img/promoImg.png" alt="promo" class="promoImgFake">
-        </div>
-        <div>
-            <img src="public/img/promoImg.png" alt="promo" class="promoImg">
-            <img src="public/img/promoImg.png" alt="promo" class="promoImgFake">
-        </div>
+    <div class="promo flex centerAI">
+        <img src="public/img/promoImg.png" alt="promo" class="promoImg">
+        <img src="public/img/promoImg.png" alt="promo" class="promoImg">
+        <img src="public/img/promoImg.png" alt="promo" class="promoImg">
+        <img src="public/img/promoImg.png" alt="promo" class="promoImg">
+        <img src="public/img/promoImg.png" alt="promo" class="promoImg">
     </div>
 </footer>
       <script>
